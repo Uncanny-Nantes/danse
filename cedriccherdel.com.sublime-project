@@ -1,0 +1,53 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd": "jekyll serve",
+			"encoding": "UTF-8",
+			"name": "Jekyll Serve",
+			"shell": true,
+			"working_dir": "D:/Herisson/Documents/Dev/cedriccherdel.com/"
+		},
+		{
+			"cmd": "jekyll build -t",
+			"encoding": "UTF-8",
+			"name": "Jekyll Build",
+			"shell": true,
+			"working_dir": "D:/Herisson/Documents/Dev/cedriccherdel.com/"
+		},
+		{
+			"cmd": "jekyll build -t",
+			"encoding": "UTF-8",
+			"name": "Jekyll Deploy",
+			"shell": true,
+			"working_dir": "D:/Herisson/Documents/Dev/cedriccherdel.com/"
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"settings":
+	{
+		"Jekyll":
+		{
+			"default_post_categories":
+			[
+			],
+			"default_post_extras":
+			{
+			},
+			"default_post_layout": "",
+			"default_post_published": true,
+			"default_post_syntax": "Markdown",
+			"default_post_tags":
+			[
+			],
+			"drafts_path": "D:/Herisson/Documents/Dev/cedriccherdel.com/_drafts",
+			"insert_date_format": "%d/%m/%Y %H:%M:%S",
+			"posts_path": "D:/Herisson/Documents/Dev/cedriccherdel.com/_posts"
+		}
+	}
+}

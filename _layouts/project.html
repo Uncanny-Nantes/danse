@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<div class="project">
+
+    <header class="project-header">
+        <h1 class="project-title">{{ page.title }}</h1>
+    </header>
+
+    <article class="project-content">
+        {{ content }}
+    </article>
+
+    {% if page.images || page.videos %}
+        <div id="medias">
+        {% if page.images %}
+            <p id="image"><a href="#">Images</a></p>
+        {% endif %}
+
+        {% if page.videos %}
+            <p id="video"><a href="#">Vidéos</a></p>
+        {% endif %}
+        </div>
+    {% endif %}
+
+    <div id="colonne">
+        <section class="inline left">
+            <header class="soustitre">
+                <h2 id="soustitre-distribution">Distribution</h2>
+            </header>
+            <article id="project-distribution">
+                {{ page.distribution }}
+            </article>
+        </section>
+        <section class="inline right">
+            <header class="soustitre">
+                <h2 id="soustitre-mention">Mention</h2>
+            </header>
+            <article id="project-mention">
+                {{ page.mention }}
+            </article>
+        </section>
+    </div>
+
+</div>
