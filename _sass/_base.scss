@@ -35,6 +35,7 @@ em {
     font-weight: 600;
 }
 
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -61,15 +62,20 @@ img {
 /**
  * Figures
  */
-figure > img {
-    display: block;
+figure, figure > img, figcaption {
+    display: inline-block;
+    margin-bottom: 28px;
 }
 
 figcaption {
     font-size: $small-font-size;
+    display: none;
 }
 
-
+.thumbnails {
+    width: 130px;
+    height: 130px;
+}
 
 /**
  * Lists

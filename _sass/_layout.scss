@@ -33,7 +33,7 @@
 }
 
 #site-title-prenom {
-    letter-spacing: 15px;
+    letter-spacing: 21px;
     margin: 0 0 0 23px;
 }
 
@@ -42,13 +42,21 @@
     margin: -3px 0 0 8px;
 }
 
-#site-title-subtitle {
+#danse {
     background-color: $jaune;
+    margin: -2px 0 0 120px;
+    display: none;
+}
+#massage {
+    background-color: $bleu;
+    margin: -21px 0 0 28px;
+    display: none;
+}
+.site-title-subtitle {
     font-size: 12px;
     letter-spacing: 0.01cm;
-    margin: -2px 0 0 113px;
     padding: 2px 5px;
-    width: 74px;
+    width: 82px;
 }
 
 .site-nav {
@@ -118,8 +126,12 @@
         }
     }
 }
+.main_links, .main_links:hover, .main_links:visited {
+    color: black;
+}
 
-#massage {
+
+#massage-bg {
     background-image: url("/css/massage.png");
     background-position: center top;
     background-repeat: no-repeat;

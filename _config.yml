@@ -5,7 +5,10 @@ prenom: Cedric
 
 nom: CHERDEL
 
-subtitle: Chorégraphe
+subtitle-danse: Chorégraphe
+subtitle-massage: Masseur Thaï
+
+dossier: creations
 
 email: webmaster@cedriccherdel.com
 
@@ -16,7 +19,7 @@ email: webmaster@cedriccherdel.com
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 
-url: "http://danse.cedriccherdel.com" # the base hostname & protocol for your site
+url: "http://www.cedriccherdel.com" # the base hostname & protocol for your site
 
 #twitter_username: jekyllrb
 #github_username:  jekyll
@@ -27,8 +30,9 @@ markdown: kramdown
 timezone: Europe/Paris
 
 collections:
-    projets:
-        label: 2_projets
+    creations:
+        label: 2_creations
+        permalink: /creations/:path/
         output: true
 
 encoding: utf-8
@@ -39,8 +43,7 @@ textile_ext: "textile,txtl,tl"
 exclude:
     - cedriccherdel.com.sublime-project
     - feed.xml
-    - project
-
+    - README.md
 
 gems:
     - jekyll-textile-converter
