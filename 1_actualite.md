@@ -50,7 +50,7 @@ Samedi 06 juin, SPOT festival, espace cosmopolis
 
 
 
-#__Appel à participation ___NUAGE___
+# Appel à participation _NUAGE_
 
 Samedi 16 et dimanche 17 mai 
 
